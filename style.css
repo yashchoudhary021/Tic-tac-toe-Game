@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 15vh);
+    grid-template-rows: repeat(3, 15vh);
+}
+
+.box {
+    border: 2px solid white;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.box:hover {
+    background-color: rgb(84, 82, 82);
+    color: white;
+}
+.info {
+    font-size: 30px;
+}
+.gameinfo {
+    margin-top: 50px;
+    padding: 0 34px;
+    margin-left: 100px;
+}
+.br-0 {
+    border-right: 0;
+}
+.bl-0 {
+    border-left: 0;
+}
+.bt-0 {
+    border-top: 0;
+}
+.bb-0 {
+    border-bottom: 0;
+}
+button {
+    font-size: 20px;
+    padding: 4px 10px;
+}
